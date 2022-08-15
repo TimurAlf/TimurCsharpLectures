@@ -5,7 +5,7 @@ void Method1()
 {
     Console.WriteLine("Text");
 }
-//Method1(); 
+Method1(); 
 
 // Вид 2 - метод, который принимает аргументы, но ничего не возвращает (void)
 
@@ -19,7 +19,7 @@ void Method2(string msg, int count)
     }
 
 }
-//Method2(msg:"Text",count: 4);
+Method2(msg:"Text",count: 4);
 //Method2(count: 4, msg:"Text");
 //Method2("Text", 4);
 
