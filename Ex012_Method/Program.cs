@@ -35,7 +35,7 @@ int year = Method3();
 
 // Вид 4 - метод, который принимает аргументы и возвращает 
 
-string Method4(int count, string text)
+/*string Method4(int count, string text)
 {
     int i = 0;
     string result = String.Empty; // пустая строка
@@ -48,6 +48,7 @@ string Method4(int count, string text)
 }
 string res = Method4(10, "Text");
 // Console.WriteLine(res);
+*/
 
 // Cycle For
 
