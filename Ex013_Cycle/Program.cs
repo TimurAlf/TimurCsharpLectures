@@ -1,27 +1,10 @@
-﻿
-/*
-string Method4(int count, string text)
+﻿// Цикл в цикле
+
+for (int i = 2; i <= 10; i++)
 {
-    int i = 0;
-    string result = String.Empty; // пустая строка
-    while (i<count)
+    for (int j = 2; j <= 10; j++)
     {
-        result=result + text;
-        i++;
+        Console.WriteLine($"{i}x{j}={i * j}"); // интерполяция строк. хз. что значит
     }
-    return result;
+    Console.WriteLine();
 }
-string res = Method4(10, "Text");
-Console.WriteLine(res);
-*/
-string Method4(int count, string text)
-{
-    string result = String.Empty; // пустая строка
-    for (int i = 0;i<count; i++)
-    {
-        result=result + text;
-    }
-    return result;
-}
-string res = Method4(10, "Text");
-Console.WriteLine(res);
